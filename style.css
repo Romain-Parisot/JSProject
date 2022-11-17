@@ -1,5 +1,71 @@
-.baton{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div1{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.divSpan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 60px;
+
+}
+
+.Baton{
     width: 20px;
     height: 200px;
-    background-color: red;
+    background-color: brown;
+    border-radius: 50px;
+}
+
+
+.divBt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btSubmit{
+
+    background: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+}
+.opa{
+    opacity: 0;
+}
+.none{
+    display: none;
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.joueur{
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+
+.divmsg{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
 }
